@@ -1,0 +1,29 @@
+{
+  "name": "quisoluta",
+  "version": "1.0.0",
+  "description": "A middleware for express to enable trustless data to and from the blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KellenBode/quisoluta.git"
+  },
+  "keywords": [
+    "web3"
+  ],
+  "author": "HillardHoeger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KellenBode/quisoluta.git/issues"
+  },
+  "homepage": "https://github.com/KellenBode/quisoluta.git",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "ipfs-http-client": "^56.0.1",
+    "md5": "^2.3.0",
+    "web3": "^1.7.0"
+  }
+}
